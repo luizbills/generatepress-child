@@ -11,14 +11,16 @@
  Text Domain:  gpchild
 */
 
-@media screen and (min-width: 64em) {
-    /* # Desktop */
+/* # All Screens */
+
+@media screen and (min-width: 32em) {
+    /* # Smartphones */
 }
 
 @media screen and (min-width: 48em) {
     /* # Tablet */
 }
 
-@media screen and (min-width: 32em) {
-    /* # Smartphones */
+@media screen and (min-width: 64em) {
+    /* # Desktop */
 }
