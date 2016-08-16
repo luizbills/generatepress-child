@@ -7,8 +7,8 @@ require 'inc/gpchild-template-functions.php';
 require 'inc/gpchild-template-hooks.php';
 
 if ( in_array( 'woocommerce/woocommerce.php', $active_plugins ) ) {
-  require 'inc/gpchild-woocommerce-functions.php';
-  require 'inc/gpchild-woocommerce-template-functions.php';
-  require 'inc/gpchild-woocommerce-template-hooks.php';
+  require 'inc/woocommerce/functions.php';
+  require 'inc/woocommerce/template-functions.php';
+  require 'inc/woocommerce/template-hooks.php';
 }
 
