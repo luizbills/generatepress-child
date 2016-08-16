@@ -2,6 +2,8 @@
 
 $active_plugins = apply_filters( 'active_plugins', get_option( 'active_plugins' ) );
 
+require 'inc/optimizations.php';
+
 require 'inc/gpchild-functions.php';
 require 'inc/gpchild-template-functions.php';
 require 'inc/gpchild-template-hooks.php';
